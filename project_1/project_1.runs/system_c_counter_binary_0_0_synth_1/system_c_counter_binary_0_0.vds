@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec 20 16:20:37 2017
+# Process ID: 1233
+# Current directory: /home/golfit/git/fpga-stopwatch/project_1/project_1.runs/system_c_counter_binary_0_0_synth_1
+# Command line: vivado -log system_c_counter_binary_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_c_counter_binary_0_0.tcl
+# Log file: /home/golfit/git/fpga-stopwatch/project_1/project_1.runs/system_c_counter_binary_0_0_synth_1/system_c_counter_binary_0_0.vds
+# Journal file: /home/golfit/git/fpga-stopwatch/project_1/project_1.runs/system_c_counter_binary_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source system_c_counter_binary_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1357.008 ; gain = 78.000 ; free physical = 17086 ; free virtual = 42708
+INFO: [Synth 8-638] synthesizing module 'system_c_counter_binary_0_0' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ip/system_c_counter_binary_0_0/synth/system_c_counter_binary_0_0.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'system_c_counter_binary_0_0' (8#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ip/system_c_counter_binary_0_0/synth/system_c_counter_binary_0_0.vhd:68]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1409.551 ; gain = 130.543 ; free physical = 17060 ; free virtual = 42683
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1409.551 ; gain = 130.543 ; free physical = 17053 ; free virtual = 42676
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1703.148 ; gain = 0.004 ; free physical = 16688 ; free virtual = 42310
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 17244 ; free virtual = 42414
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 17244 ; free virtual = 42414
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 17246 ; free virtual = 42416
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:41 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 17237 ; free virtual = 42406
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 17225 ; free virtual = 42394
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:49 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16809 ; free virtual = 41979
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:49 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16809 ; free virtual = 41979
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:49 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16808 ; free virtual = 41977
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     1|
+|2     |MUXCY |    31|
+|3     |XORCY |    32|
+|4     |FDRE  |    32|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1703.152 ; gain = 424.145 ; free physical = 16815 ; free virtual = 41984
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:51 . Memory (MB): peak = 1708.145 ; gain = 448.234 ; free physical = 16854 ; free virtual = 42024

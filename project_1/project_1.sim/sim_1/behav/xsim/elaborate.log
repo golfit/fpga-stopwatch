@@ -1,0 +1,13 @@
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.3/bin/unwrapped/lnx64.o/xelab -wto 4fe9923d6df34b2cb1c1ef93d5fccd8b --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot knight_rider_tb_behav xil_defaultlib.knight_rider_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.knight_rider
+Compiling module xil_defaultlib.knight_rider_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot knight_rider_tb_behav

@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec 20 16:23:43 2017
+# Process ID: 4952
+# Current directory: /home/golfit/git/fpga-stopwatch/project_1/project_1.runs/system_axi_gpio_0_0_synth_1
+# Command line: vivado -log system_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_gpio_0_0.tcl
+# Log file: /home/golfit/git/fpga-stopwatch/project_1/project_1.runs/system_axi_gpio_0_0_synth_1/system_axi_gpio_0_0.vds
+# Journal file: /home/golfit/git/fpga-stopwatch/project_1/project_1.runs/system_axi_gpio_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source system_axi_gpio_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1361.996 ; gain = 82.996 ; free physical = 17522 ; free virtual = 42702
+INFO: [Synth 8-638] synthesizing module 'system_axi_gpio_0_0' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ipshared/e9c1/hdl/axi_gpio_v2_0_vh_rfs.vhd:1358]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_gpio_0_0' (8#1) [/home/golfit/git/fpga-stopwatch/project_1/project_1.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/synth/system_axi_gpio_0_0.vhd:87]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1405.543 ; gain = 126.543 ; free physical = 17538 ; free virtual = 42710
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1405.543 ; gain = 126.543 ; free physical = 17540 ; free virtual = 42712
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1730.148 ; gain = 0.004 ; free physical = 17153 ; free virtual = 42325
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1730.152 ; gain = 451.152 ; free physical = 17243 ; free virtual = 42414
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1730.152 ; gain = 451.152 ; free physical = 17243 ; free virtual = 42414
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1730.152 ; gain = 451.152 ; free physical = 17244 ; free virtual = 42416
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1730.152 ; gain = 451.152 ; free physical = 17235 ; free virtual = 42406
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:40 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17222 ; free virtual = 42394
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17089 ; free virtual = 42264
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42260
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17083 ; free virtual = 42258
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     9|
+|3     |LUT3 |     8|
+|4     |LUT4 |     5|
+|5     |LUT5 |   141|
+|6     |LUT6 |    36|
+|7     |FDR  |   256|
+|8     |FDRE |   314|
+|9     |FDSE |    64|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 1730.160 ; gain = 451.160 ; free physical = 17085 ; free virtual = 42259
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:51 . Memory (MB): peak = 1730.160 ; gain = 470.254 ; free physical = 17135 ; free virtual = 42309
